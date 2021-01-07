@@ -1731,6 +1731,7 @@ bool setup_mons_cast(const monster* mons, bolt &pbolt, spell_type spell_cast,
     case SPELL_DREAM_DUST:
     case SPELL_SPORULATE:
     case SPELL_ROLL:
+    case SPELL_SUMMON_LIGHTNING_SPIRE:
         pbolt.range = 0;
         pbolt.glyph = 0;
         return true;
