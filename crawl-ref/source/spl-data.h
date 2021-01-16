@@ -3363,6 +3363,17 @@ static const struct spell_desc spelldata[] =
 },
 
 {
+    SPELL_SUMMON_PANZERGEIST, "Summon Panzergeist",
+    spschool::summoning | spschool::earth,
+    spflag::none,
+    3,
+    50,
+    -1, -1,
+    4, 0,
+    TILEG_ERROR,
+},
+
+{
     SPELL_NO_SPELL, "nonexistent spell",
     spschool::none,
     spflag::testing,

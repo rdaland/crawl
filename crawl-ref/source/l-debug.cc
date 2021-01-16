@@ -511,6 +511,7 @@ LUAFN(debug_check_moncasts)
         SPELL_RANDOM_EFFECTS,
         SPELL_POISONOUS_VAPOURS,
         SPELL_BORGNJORS_VILE_CLUTCH,
+        SPELL_SUMMON_PANZERGEIST,
     };
 
     for (int s = SPELL_FIRST_SPELL; s < NUM_SPELLS; s++)

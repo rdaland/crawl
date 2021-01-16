@@ -1875,6 +1875,11 @@ pandemonium lord
 A formidable demon lord inhabiting the endless halls of Pandemonium. Each one
 is different, with its own set of strengths and weaknesses.
 %%%%
+panzergeist
+
+The embodied spirit of a suit of armour, here to protect its wearer in a more
+aggressive fashion than armour customarily does.
+%%%%
 peacekeeper
 
 A four-legged humanoid construct, tasked with recapturing escaped slaves and

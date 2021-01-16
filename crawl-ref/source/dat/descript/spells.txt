@@ -1437,6 +1437,11 @@ Summon Mushrooms spell
 
 Summons wandering mushrooms and deathcaps next to a targeted creature.
 %%%%
+Summon Panzergeist
+
+Call upon the spirit of your worn armour to fight alongside you. The spirit moves
+slowly, but draws strength from the inherent protection of your own armour.
+%%%%
 Summon Scarabs spell
 
 Calls forth a swarm of death scarabs.

@@ -169,6 +169,7 @@ enum monster_type                      // env.mons[].type
     MONS_DANCING_WEAPON,
 #if TAG_MAJOR_VERSION > 34
     MONS_SPECTRAL_WEAPON,
+    MONS_PANZERGEIST,
 #endif
     MONS_HARPY,
 #if TAG_MAJOR_VERSION == 34
@@ -1085,6 +1086,7 @@ enum monster_type                      // env.mons[].type
     MONS_FENSTRIDER_WITCH,
     MONS_WILL_O_THE_WISP,
     MONS_TEST_BLOB,
+    MONS_PANZERGEIST,
 #endif
 
     NUM_MONSTERS,               // used for polymorph
