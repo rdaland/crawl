@@ -185,8 +185,8 @@ static const vector<spell_type> spellbook_templates[] =
 },
 
 {   // Book of the Warp
-    SPELL_GRAVITAS,
     SPELL_PORTAL_PROJECTILE,
+    SPELL_PROJECTED_WEAPON,
     SPELL_DISPERSAL,
     SPELL_DISJUNCTION,
 },
@@ -242,6 +242,7 @@ static const vector<spell_type> spellbook_templates[] =
 #endif
 
 {   // Book of Power
+    SPELL_LRD,
     SPELL_BATTLESPHERE,
     SPELL_BOLT_OF_MAGMA,
     SPELL_IRON_SHOT,
@@ -292,7 +293,7 @@ static const vector<spell_type> spellbook_templates[] =
     SPELL_SWIFTNESS,
     SPELL_PASSWALL,
     SPELL_GOLUBRIAS_PASSAGE,
-    SPELL_LRD,
+    SPELL_PROJECTED_WEAPON,
     SPELL_INVISIBILITY,
 },
 
