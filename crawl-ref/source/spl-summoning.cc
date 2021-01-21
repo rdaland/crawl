@@ -2749,6 +2749,7 @@ static const map<spell_type, summon_cap> summonsdata =
     { SPELL_SUMMON_EXECUTIONERS,        { 3, 1 } },
     { SPELL_AWAKEN_EARTH,               { 9, 2 } },
     { SPELL_GREATER_SERVANT_MAKHLEB,    { 1, 2 } },
+    { SPELL_SUMMON_TZITZIMITL,          { 3, 1 } },
 };
 
 bool summons_are_capped(spell_type spell)
