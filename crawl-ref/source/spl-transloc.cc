@@ -1051,26 +1051,34 @@ spret cast_projected_weapon(int pow, bool fail, bool real)
             continue;
         targets.emplace_back(*mi);
     }
-    
+
     if (targets.empty())
     {
         if (real)
             mpr("You can't see anything to attack.");
         return spret::abort;
     }
-    
+
     if (!real)
         return spret::success;
 
     if (!wielded_weapon_check(weapon))
         return spret::abort;
-    
+
     fail_check();
+
+    if (targets.size() < 2)
+        mpr("A portal rends the air!");
+    else
+        mpr("A myriad of tiny portals rend the air!");
 
     shuffle_array(targets);
     const size_t max_targets = 2 + div_rand_round(pow, 50);
     for (size_t i = 0; i < max_targets && i < targets.size(); i++)
     {
+        // manually apply noise
+        behaviour_event(targets[i], ME_ALERT, &you, you.pos()); // shout + set you as foe
+
         melee_attack atk(&you, targets[i]);
         atk.is_projected = true;
         atk.attack();
