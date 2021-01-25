@@ -3363,10 +3363,10 @@ static const struct spell_desc spelldata[] =
 },
 
 {
-    SPELL_PROJECTED_WEAPON, "Projected Weapon",
-    spschool::translocation,
+    SPELL_PROJECTED_WEAPON, "Vortex of Steel",
+    spschool::translocation | spschool::air,
     spflag::no_ghost,
-    5,
+    4,
     100,
     -1, -1,
     5, 0,

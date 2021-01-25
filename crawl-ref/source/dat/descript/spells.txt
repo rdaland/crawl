@@ -1084,12 +1084,12 @@ Primal Wave spell
 Conjures a torrent of water that may knock back the target, and creates a
 pool of shallow water for a short duration.
 %%%%
-Projected Weapon spell
+Vortex of Steel spell
 
-Launches melee attacks against multiple visible enemies, opening a myriad of
-tiny portals which briefly transport and duplicate the caster's weapon. The
-number of portals opened increases at high power. The spell does nothing if
-cast without a melee weapon held.
+Launches melee attacks against multiple visible enemies, tearing a myriad of
+tiny portals in the air which briefly transport and duplicate the caster's
+weapon. The number of portals opened increases at high power. The spell does
+nothing if cast without a melee weapon held.
 %%%%
 Quicksilver Bolt spell
 
